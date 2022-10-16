@@ -9,10 +9,16 @@ h1 {
     font-size: 96px;
 }
 
+h2 {
+    font-size:64px;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-weight:normal;
     margin: 0;
+    font-size:16px;
+    line-height:30px;
 }
 
 .hero {
@@ -42,3 +48,13 @@ p {
     line-height: 27px;
     padding: 15px 30px;
 }
+
+.btn-branding-outline {
+        border-radius: 4px;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+        border: 1px solid #6c63ff;
+        color: #6c63ff;
+    }
+
