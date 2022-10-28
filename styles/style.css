@@ -21,6 +21,39 @@ p {
     line-height:30px;
 }
 
+.logo {
+    max-width: 150px;
+}
+
+nav {
+    padding:20px 0;
+}
+
+nav li {
+    display:inline;
+    list-style:none;
+    line-height:40px;
+    margin-left: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding:0;
+}
+
+nav a {
+    color:#272142;
+    transition: all 150ms ease-in-out;
+    text-decoration:none;
+    font-family: 'Poppins',
+            sans-serif;
+}
+
+nav a:hover, 
+nav li.active a {
+    color: #6C63FF;
+}
+
 .hero {
     background-color: #f9f7fe;
     text-align: center;
@@ -128,5 +161,8 @@ p {
     .project-desciption {
         padding: 0;
         text-align: center;
+    }
+    nav a {
+        font-size: 14px;
     }
 }
